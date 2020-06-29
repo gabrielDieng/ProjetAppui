@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>test</fullName>
+    <types>
+        <members>Holidays</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>TriggerHolidays</members>
+        <members>hol</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>guinar</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>SerigneMabyPoulailler</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Atempt__c.Atempt_Date__c</members>
+        <members>Atempt__c.Contact__c</members>
+        <members>Atempt__c.element__c</members>
+        <members>Atempt__c.status__c</members>
+        <members>Atempt__c.total_element__c</members>
+        <members>Campagne_de_vaccination__c.Date_Debut__c</members>
+        <members>Campagne_de_vaccination__c.Date_Fin__c</members>
+        <members>Campagne_de_vaccination__c.montant_total__c</members>
+        <members>Campagne_de_vaccination__c.nombre_pv_total__c</members>
+        <members>Campagne_de_vaccination__c.prix_par_poulet__c</members>
+        <members>Certification__c.Date_Achieved__c</members>
+        <members>Certification__c.Date_Delivered__c</members>
+        <members>Certification__c.total_element__c</members>
+        <members>Cours__c.Duree__c</members>
+        <members>Cours__c.professeur__c</members>
+        <members>Cours__c.salle__c</members>
+        <members>Course__c.Certification__c</members>
+        <members>Course__c.Course_Description__c</members>
+        <members>Course__c.Duration__c</members>
+        <members>Course__c.Status__c</members>
+        <members>Course__c.Total_canceled_courses__c</members>
+        <members>Course__c.canceled_rate__c</members>
+        <members>Delivery__c.Course__c</members>
+        <members>Delivery__c.Course_delivered_Number__c</members>
+        <members>Delivery__c.End_Date__c</members>
+        <members>Delivery__c.Instructor__c</members>
+        <members>Delivery__c.Region__c</members>
+        <members>Delivery__c.start_date__c</members>
+        <members>Delivery__c.status__c</members>
+        <members>Element__c.certification__c</members>
+        <members>Expense__c.Amount__c</members>
+        <members>Expense__c.Client__c</members>
+        <members>Expense__c.Date__c</members>
+        <members>Expense__c.Reimbursed__c</members>
+        <members>Personne__c.Adresse__c</members>
+        <members>Personne__c.Date_de_naissance__c</members>
+        <members>Personne__c.Email__c</members>
+        <members>Personne__c.Lieu_de_naissance__c</members>
+        <members>Personne__c.Nationalite__c</members>
+        <members>Personne__c.Prenom__c</members>
+        <members>Personne__c.telephone__c</members>
+        <members>Poulailler__c.Adresse__c</members>
+        <members>Poulailler__c.Capacite__c</members>
+        <members>Poulailler__c.number_phone__c</members>
+        <members>Poulailler__c.website__c</members>
+        <members>Poulet_Vaccine__c.Camp_Vacccination__c</members>
+        <members>Poulet_Vaccine__c.PV__c</members>
+        <members>Poulet_Vaccine__c.Prix_unitaire__c</members>
+        <members>Poulet__c.Poids__c</members>
+        <members>Poulet__c.Prix_Unitaire__c</members>
+        <members>Poulet__c.poulailler__c</members>
+        <members>Professeur__c.Profil__c</members>
+        <members>Professeur__c.nombre_de_cours__c</members>
+        <members>Professeur__c.personne__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Atempt__c</members>
+        <members>Campagne_de_vaccination__c</members>
+        <members>Certification__c</members>
+        <members>Cours__c</members>
+        <members>Course__c</members>
+        <members>Delivery__c</members>
+        <members>Element__c</members>
+        <members>Expense__c</members>
+        <members>Personne__c</members>
+        <members>Poulailler__c</members>
+        <members>Poulet_Vaccine__c</members>
+        <members>Poulet__c</members>
+        <members>Professeur__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Atempt__c</members>
+        <members>Campagne_de_vaccination__c</members>
+        <members>Certification__c</members>
+        <members>Cours__c</members>
+        <members>Course__c</members>
+        <members>Delivery__c</members>
+        <members>Element__c</members>
+        <members>Expense__c</members>
+        <members>Personne__c</members>
+        <members>Poulailler__c</members>
+        <members>Poulet__c</members>
+        <members>Professeur__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Course_Record_Page1</members>
+        <members>Expenses</members>
+        <members>MabyPoulailler_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>Atempt__c-Atempt Layout</members>
+        <members>Campagne_de_vaccination__c-Campagne de vaccination Layout</members>
+        <members>Certification__c-Certification Layout</members>
+        <members>Cours__c-Cours Layout</members>
+        <members>Course__c-Course Layout</members>
+        <members>Delivery__c-Course Delivered Layout</members>
+        <members>Element__c-Element Layout</members>
+        <members>Expense__c-Expense</members>
+        <members>Expense__c-Expense Layout</members>
+        <members>Personne__c-Personne Layout</members>
+        <members>Poulailler__c-Poulailler Layout</members>
+        <members>Poulet_Vaccine__c-Poulet Vaccine Layout</members>
+        <members>Poulet__c-Poulet Layout</members>
+        <members>Professeur__c-Professeur Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Atempt__c.All</members>
+        <members>Campagne_de_vaccination__c.All</members>
+        <members>Certification__c.All</members>
+        <members>Cours__c.All</members>
+        <members>Course__c.All</members>
+        <members>Delivery__c.All</members>
+        <members>Element__c.All</members>
+        <members>Expense__c.All</members>
+        <members>Personne__c.All</members>
+        <members>Poulailler__c.All</members>
+        <members>Poulet__c.All</members>
+        <members>Professeur__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
+        <members>Poulailler__c.numberPhoneTest</members>
+        <members>Poulailler__c.websiteTest</members>
+        <name>ValidationRule</name>
+    </types>
+    <version>48.0</version>
+</Package>
